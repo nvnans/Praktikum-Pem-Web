@@ -1,0 +1,28 @@
+div {
+    display: inline-block;
+    background-color: antiquewhite;
+}
+
+.satu img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.dua img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.tiga img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+
+.empat img {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
