@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 4px;
+    color: black;
+
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1; 
+}
+
+ aside {
+    min-width: 20vw;
+}
+
+footer, header {
+    min-height: 10vh;
+}
+
+nav {
+    background: yellow;
+    min-width: 20vh;
+}
+
+main  aside {
+    background: blue;
+    order: 2; 
+}
+
+header, footer {
+    background: red;
+    height: 20vh;
+}
+
+header, footer, article, nav, aside {
+    margin: 0px;
+}
+
+article {
+    flex-grow: 1;
+}
